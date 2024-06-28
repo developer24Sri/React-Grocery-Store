@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import CartsTab from "./CartsTab";
+import Footer from "./Footer";
 
 export default function Layout(){
     return(
@@ -11,6 +12,7 @@ export default function Layout(){
             <Outlet />
           </main>
           <CartsTab />
+          <Footer />
         </div>
     )
 }
